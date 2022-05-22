@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to right,#22598E,#34ACDC);
+    font-family: Dosis;
+    font-size:20px;
+}
+
+.cauculadora{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10%;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+input{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.result{
+    display: flex;
+}
+
+#botao{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#result-text{
+    font-size: 40px;
+    text-align: right;
+    margin: 10px;
+}
